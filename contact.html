@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>لوفينج هومز | حجز / تواصل</title>
+  <meta name="description" content="تواصل معنا واحجز مكاناً لكلبك. نموذج استفسار مع رد خلال 24 ساعة." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+<!-- شريط علوي -->
+<div class="top-strip">مرحباً بكم في لوفينج هومز – الرعاية الأفضل لأصدقائكم الأوفياء</div>
+
+<!-- رأس الموقع -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="العودة إلى الصفحة الرئيسية">
+      <span class="brand-paw">🐾</span>
+      <span class="brand-text">
+        <span class="brand-name">LOVING HOMES</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-controls="primary-nav" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label="التنقل الرئيسي">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="services.html">الخدمات</a>
+      <a href="packages.html">الباقات</a>
+      <a href="gallery.html">المعرض</a>
+      <a href="reviews.html">آراء العملاء</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="تبديل الوضع" aria-pressed="false">🌙</button>
+      <button id="lang-toggle" class="icon-btn" type="button" aria-label="تغيير اللغة">EN</button>
+      <a class="btn btn-small header-cta active" href="contact.html">حجز / تواصل</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- المحتوى الرئيسي -->
+<main id="main">
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h1 style="font-size:36px;font-weight:900;margin-bottom:8px">حجز / تواصل</h1>
+      <p class="muted">أرسل استفسارك وسنرد خلال 24 ساعة.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3 style="margin-bottom:14px">نموذج الاستفسار</h3>
+
+        <div id="form-alert" class="alert" role="alert" aria-live="polite"></div>
+        <div id="form-success" class="success" role="status" aria-live="polite"></div>
+
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">الاسم الكامل</label>
+            <input id="name" name="name" autocomplete="name" required placeholder="اكتب اسمك..." />
+            <p class="help">سنستخدمه لتأكيد الحجز.</p>
+          </div>
+
+          <div class="field">
+            <label for="email">البريد الإلكتروني</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="example@email.com" />
+          </div>
+
+          <div class="field">
+            <label for="phone">رقم الهاتف</label>
+            <input id="phone" name="phone" inputmode="tel" autocomplete="tel" required placeholder="+852 0000 0000" />
+          </div>
+
+          <div class="field">
+            <label for="service">الخدمة المطلوبة</label>
+            <select id="service" name="service" required>
+              <option value="">اختر الخدمة...</option>
+              <option>الإيواء</option>
+              <option>الرعاية النهارية</option>
+              <option>التجميل</option>
+              <option>التدريب</option>
+              <option>باقة مخصصة</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" rows="5" required placeholder="سلالة الكلب، العمر، التواريخ، وأي استفسارات خاصة..."></textarea>
+            <p class="help">اذكر التواريخ ومعلومات الكلب وأي ملاحظات طبية.</p>
+          </div>
+
+          <button class="btn" type="submit" style="width:100%">📨 ارسل الاستفسار</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:14px">بيانات التواصل</h3>
+        <p class="muted" style="margin-bottom:16px">إذا فضّلت الاتصال أو البريد، إليك التفاصيل.</p>
+
+        <div class="footer-contact-item" style="font-size:14px;margin-bottom:12px">
+          <span class="footer-contact-dot green"></span>
+          <strong>الموقع:</strong> يون لونغ، هونغ كونغ
+        </div>
+        <div class="footer-contact-item" style="font-size:14px;margin-bottom:12px">
+          <span class="footer-contact-dot blue"></span>
+          <strong>الهاتف:</strong> +852 0000 0000
+        </div>
+        <div class="footer-contact-item" style="font-size:14px;margin-bottom:20px">
+          <span class="footer-contact-dot red"></span>
+          <strong>البريد:</strong> hello@lovinghomes.hk
+        </div>
+
+        <h3 style="margin-bottom:10px">ساعات العمل</h3>
+        <ul class="list">
+          <li>الاثنين–الجمعة: 9:00–18:00</li>
+          <li>السبت–الأحد: 10:00–17:00</li>
+          <li>الاستلام والتسليم بالموعد</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<!-- تذييل الموقع -->
+<footer class="footer-simple">
+  <div class="container">
+    <div class="footer-simple-links">
+      <a href="#">سياسة الخصوصية</a>
+      <a href="#">الشروط والأحكام</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+    </div>
+    <div class="footer-simple-social">
+      <a class="social-btn" href="#" aria-label="تويتر">🐦</a>
+      <a class="social-btn" href="#" aria-label="إنستغرام">📷</a>
+      <a class="social-btn" href="#" aria-label="فيسبوك">📘</a>
+    </div>
+    <p class="footer-simple-copyright">© 2026 لوفينج هومز. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
