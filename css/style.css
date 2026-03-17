@@ -69,11 +69,14 @@ img {
   height: auto;
   display: block;
 }
+<<<<<<< HEAD
 video {
   max-width: 100%;
   height: auto;
   display: block;
 }
+=======
+>>>>>>> 1003f345b85b09d13bd18f8a1e416de9a68a8061
 a {
   color: inherit;
   text-decoration: none;
@@ -859,6 +862,7 @@ a {
   font-size: 22px;
   margin-bottom: 12px;
 }
+<<<<<<< HEAD
 
 /* Accordion (FAQ) */
 .faq-h { margin: 0; }
@@ -889,6 +893,37 @@ a {
 .faq-card.is-open {
   border-color: rgba(40, 167, 69, 0.35);
 }
+=======
+.faq-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.faq-card p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+
+
+/* Accordion (FAQ) */
+.faq-h{margin:0}
+.faq-q{
+  width:100%;
+  text-align:right;
+  background:transparent;
+  border:0;
+  padding:0;
+  font-size:16px;
+  font-weight:800;
+  cursor:pointer;
+}
+.faq-q:focus{outline:3px solid rgba(40, 167, 69, 0.35); outline-offset:4px; border-radius:10px;}
+.faq-a{margin-top:10px}
+.faq-a p{margin:0; font-size:14px; color:var(--muted); line-height:1.65}
+.faq-card.is-open{border-color: rgba(40, 167, 69, 0.35)}
+}
+
+>>>>>>> 1003f345b85b09d13bd18f8a1e416de9a68a8061
 .faq-contact-banner {
   background: var(--dark-section);
   color: #fff;
@@ -1258,6 +1293,26 @@ textarea:focus {
   font-size: 13px;
   color: var(--muted);
 }
+<<<<<<< HEAD
+=======
+
+/* فيديو داخل المعرض */
+.gallery-video {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: var(--shadow);
+}
+.video-player {
+  width: 100%;
+  max-height: 520px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+>>>>>>> 1003f345b85b09d13bd18f8a1e416de9a68a8061
 .ph {
   background: linear-gradient(135deg, #dfe7ff, #e8fff3);
   border: 1px solid var(--border);
@@ -1378,6 +1433,7 @@ textarea:focus {
   .section-header h2 {
     font-size: 28px;
   }
+<<<<<<< HEAD
 }
 
 /* ===== Mobile tweaks ===== */
@@ -1396,3 +1452,6 @@ textarea:focus {
   .rating-overview { padding: 18px; }
   .footer-grid { gap: 18px; padding: 28px 0 20px; }
 }
+=======
+}
+>>>>>>> 1003f345b85b09d13bd18f8a1e416de9a68a8061
